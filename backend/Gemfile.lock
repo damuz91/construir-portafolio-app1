@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.8)
+    rack-protection (3.0.6)
+      rack
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
+      tilt (~> 2.0)
+    sinatra-cors (1.2.0)
+    tilt (2.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  sinatra
+  sinatra-cors
+
+BUNDLED WITH
+   2.1.2
