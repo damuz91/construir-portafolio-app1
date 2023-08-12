@@ -12,7 +12,7 @@ get '/weather' do
   content_type :json
   base_url = 'http://api.weatherstack.com'
   method = '/current'
-  api_key = 'f82724d029f9f2b4b71c89edbaa90c0c'
+  api_key = 'xxx'
   location = params[:location]
 
   url = "#{base_url}#{method}?access_key=#{api_key}&query=#{location}"
